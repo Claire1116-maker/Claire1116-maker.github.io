@@ -333,39 +333,6 @@
 
 </div>
 
-<!-- 插入 LeanCloud 浏览量统计脚本 -->
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
-<script>
-  // 初始化 LeanCloud SDK
-  AV.init({
-    appId: 'qR5Ss7oYydpf1rr22FQNAxav-gzGzoHsz',
-    appKey: 'jfuSdmDFZMLCe52fS6SNfZ8k'
-  });
-
-  // 获取页面的路径（从 window.location.pathname 获取）
-  var pageUrl = window.location.pathname;
-
-  // 查询当前页面的访问量
-  var query = new AV.Query('Counter');
-  query.equalTo('url', pageUrl);
-  query.find().then(function(results) {
-    if (results.length > 0) {
-      // 如果有记录，更新显示的访问量
-      var counter = results[0];
-      counter.increment('time', 1); // 增加访问量
-      counter.save();
-      document.querySelector('.leancloud-visitors-count').innerText = counter.get('time');
-    } else {
-      // 如果没有记录，创建新的记录
-      var newCounter = new AV.Object('Counter');
-      newCounter.set('url', pageUrl);
-      newCounter.set('time', 1);
-      newCounter.save().then(function() {
-        document.querySelector('.leancloud-visitors-count').innerText = 1;
-      });
-    }
-  });
-</script>
   </footer>
 
   <!-- Scripts -->
