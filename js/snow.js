@@ -1,3 +1,4 @@
+
 function snowFall(snow) {
     /* 可配置属性 */
     snow = snow || {};
