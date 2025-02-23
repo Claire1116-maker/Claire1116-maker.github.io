@@ -4,29 +4,39 @@
   
   
   <entry>
-    <title>markdown学习</title>
-    <link href="/2025/02/10/markdown%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/"/>
-    <url>/2025/02/10/markdown%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/</url>
+    <title></title>
+    <link href="/2025/02/23/urllib/"/>
+    <url>/2025/02/23/urllib/</url>
     
-    <content type="html"><![CDATA[<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1>]]></content>
-    
-    
-    <categories>
-      
-      <category>markdown</category>
-      
-    </categories>
+    <content type="html"><![CDATA[]]></content>
     
     
-    <tags>
-      
-      <tag>原创</tag>
-      
-      <tag>博客</tag>
-      
-      <tag>hexo</tag>
-      
-    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/02/23/ai%E7%BB%98%E7%94%BB/"/>
+    <url>/2025/02/23/ai%E7%BB%98%E7%94%BB/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2025/02/18/CGI%E7%BC%96%E7%A8%8B/"/>
+    <url>/2025/02/18/CGI%E7%BC%96%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<hr><p>title: CGI编程 </p><p>date: 2025-02-08 16:56:00</p><p>tags:</p><ul><li>博客</li><li>hexo</li></ul><p>categories: python</p><hr><h1 id="CGI"><a href="#CGI" class="headerlink" title="CGI"></a>CGI</h1><p>CGI(Common Gateway Interface),通用网关接口,它是一段程序,运行在服务器上如：HTTP服务器，提供同客户端HTML页面的接口。</p><p>CGI程序可以是Python脚本，PERL脚本，SHELL脚本，C或者C++程序等</p>]]></content>
+    
+    
     
   </entry>
   
